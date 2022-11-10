@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignupForm</title>
 </head>
-<body>
+<body background="poster-6.png">
     <style>
         div{
-            margin-top:180px;
+            margin-top:120px;
             margin-left:550px;
             background-color:rgba(245, 237, 237, 0.955);
-            height:400px;
-            width:440px;
+            height: 580px;
+            width: 480px ;
         }
     </style>
     <div align="center">
@@ -35,17 +35,27 @@
             
             <input type="radio" id="gender" name="gender" value="others">Others
             <br><br>
+            <br><br>
+            <label align="center"><b>Upload your ID proof: </b></label><br>
+            <input type="file" id="idproof" name="idproof" accept="image/png, image/jpeg">
 
             <b>How many seats do you want to book: </b><br>
             <input type="text" id="sno" name="nos">
             <br><br>
-            
+
+            <label><b>Choose show time:</b></label><br>
+            <input type="time" id="check-in" name="check-in" required>
+            <small><b>Select the show time</b></small>
+            <br><br>
             <b>Booking Date:</b>
             <input type="date" id="bookingdate" name="bookingdate">
             <br><br>
             <input type="submit" value="Submit">
+            <br><br>
+
         </form>
     </div>
-
+    <br><br>
+    <button onclick="document.location='lab-1_2247113-pg4.html'">Let's have fun</button>
 </body>
 </html>
