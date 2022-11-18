@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="customer.xsl"?>
+<cakeshop_customer_management>
+  <customer>
+    <id>2247113</id>
+    <fname>Harsh</fname>
+    <mname>Vardhan</mname>
+    <lname>Singh</lname>
+    <street>Ashiyana Digha Road</street>
+    <city>Patna</city>
+    <state>Bihar</state>
+    <phone>9523835835</phone>
+  </customer>
+  <customer>
+    <id>2247163</id>
+    <fname>Mousumi</fname>
+    <mname></mname>
+    <lname>Giri</lname>
+    <street>Airpor Rd</street>
+    <city>Bhubaneshwar</city>
+    <state>Odisha</state>
+    <phone>9040966729</phone>
+  </customer>
+  <customer>
+    <id>2247139</id>
+    <fname>Aditi</fname>
+    <mname></mname>
+    <lname>Khurana</lname>
+    <street>AnandVihar</street>
+    <city>New Delhi</city>
+    <state>New York</state>
+    <phone>9639611149</phone>
+  </customer>
+  <customer>
+    <id>2247111</id>
+    <fname>Aniket</fname>
+    <mname></mname>
+    <lname>Singh</lname>
+    <street>Station rd</street>
+    <city>Dumka</city>
+    <state>Jharkhand</state>
+    <phone>6204081417</phone>
+  </customer>
+  <customer>
+    <id>2247155</id>
+    <fname>Ritwika</fname>
+    <mname></mname>
+    <lname>Talreja</lname>
+    <street>Bhopalpura</street>
+    <city>Udaipur</city>
+    <state>Rajasthan</state>
+    <phone>8955092915</phone>
+  </customer>
+   <customer>
+    <id>2247109</id>
+    <fname>Rajarshi</fname>
+    <mname></mname>
+    <lname>Barman</lname>
+    <street>Mall Road</street>
+    <city>Siliguri</city>
+    <state>West Bengal</state>
+    <phone>9871456237</phone>
+  </customer>
+   <customer>
+    <id>2247135</id>
+    <fname>Tirthajoti</fname>
+    <mname></mname>
+    <lname>Sinha</lname>
+    <street>Durgapur Expressway</street>
+    <city>Durgapur</city>
+    <state>West Bengal</state>
+    <phone>8904156782</phone>
+  </customer>
+   <customer>
+    <id>2247108</id>
+    <fname>Arun</fname>
+    <mname>Gopal</mname>
+    <lname>Krishna</lname>
+    <street>Church Street</street>
+    <city>Bangalore</city>
+    <state>Karnataka</state>
+    <phone>9784563210</phone>
+  </customer>
+</cakeshop_customer_management>
