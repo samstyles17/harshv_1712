@@ -5,6 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignupForm</title>
+    <script>
+      function setCookie(cname,cvalue,exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        var expires = "expires=" + d.toGMTString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+      }
+      
+      function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for(var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+          }
+        }
+        return "";
+      }
+      function printcookie()
+      {
+        if (user != "") {
+          alert("Welcome again " + user);
+        } else {
+           user = document.forms["myform"]["fname"].value;
+           if (user != "" && user != null) {
+             setCookie("username", user, 30);
+           }
+        }
+      }
+      function submitcookie()
+      {
+        
+      }
+      function checkCookie() {
+        var user=getCookie("username");
+        if (user != "") {
+          alert("Welcome again " + user);
+        } else {
+           user = document.forms["myform"]["fname"].value;
+           if (user != "" && user != null) {
+             setCookie("username", user, 30);
+           }
+        }
+      }
+      </script>
     <script type = "text/javascript">
 
       function validate() {
@@ -23,7 +73,7 @@
 
  
 
-         if (!/^[a-zA-Z]*$/g.test(document.myForm.fname.value)) {
+         if (!/^[a-z A-Z]*$/g.test(document.myForm.fname.value)) {
 
            alert("Name should contain alphabets only.!");
 
@@ -157,24 +207,7 @@
   
          
   
-          // When the user clicks on the password field, show the message box
-  
-          myInput.onfocus = function() {
-  
-            document.getElementById("message").style.display = "block";
-  
-          }
-  
-         
-  
-          // When the user clicks outside of the password field, hide the message box
-  
-          myInput.onblur = function() {
-  
-            document.getElementById("message").style.display = "none";
-  
-          }
-  
+          
          
   
           // When the user starts to type something inside the password field
