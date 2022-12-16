@@ -1,21 +1,21 @@
 [
     {
         "trDate": "2022-11-20",
-        "name": "Awantika",
-        "gender": "f",
+        "name": "Harsh",
+        "gender": "m",
         "date": "2001-09-17"
         
     },
     {
         "trDate": "2022-11-04",
-        "name": "Richa",
+        "name": "Mousumi",
         "gender": "f",
         "date": "2008-03-29"
         
     },
     {
         "trDate": "2022-10-31",
-        "name": "Ashwini",
+        "name": "Jasleen",
         "gender": "f",
         "date": "1987-07-04"
         
@@ -29,7 +29,7 @@
     },
     {
         "trDate": "2022-11-04",
-        "name": "Aviral",
+        "name": "Aniket",
         "gender": "m",
         "date": "2000-12-25"
     
